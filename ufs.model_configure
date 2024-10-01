@@ -1,0 +1,38 @@
+start_year:              2020
+start_month:             08
+start_day:               03
+start_hour:              00
+start_minute:            0
+start_second:            0
+nhours_fcst:             384
+fhrot:                   0
+
+dt_atmos:                150
+restart_interval:        384
+
+quilting:                .true.
+quilting_restart:        .true.
+write_groups:            4
+write_tasks_per_group:   120
+itasks:                  1
+output_history:          .true.
+history_file_on_native_grid: .false.
+write_dopost:            .true.
+write_nsflip:            .true.
+num_files:               2
+filename_base:           'atm' 'sfc'
+output_grid:             gaussian_grid
+output_file:             'netcdf_parallel' 'netcdf_parallel'
+zstandard_level:         0
+ideflate:                1
+quantize_mode:           'quantize_bitround'
+quantize_nsd:            5
+ichunk2d:                4608
+jchunk2d:                2304
+ichunk3d:                4608
+jchunk3d:                2304
+kchunk3d:                1
+imo:                     4608
+jmo:                     2304
+output_fh:                0 3 6 9 12 15 18 21 24 27 30 33 36 39 42 45 48 51 54 57 60 63 66 69 72 75 78 81 84 87 90 93 96 99 102 105 108 111 114 117 120 123 126 129 132 135 138 141 144 147 150 153 156 159 162 165 168 171 174 177 180 183 186 189 192 195 198 201 204 207 210 213 216 219 222 225 228 231 234 237 240 243 246 249 252 255 258 261 264 267 270 273 276 279 282 285 288 291 294 297 300 303 306 309 312 315 318 321 324 327 330 333 336 339 342 345 348 351 354 357 360 363 366 369 372 375 378 381 384
+iau_offset:              0
